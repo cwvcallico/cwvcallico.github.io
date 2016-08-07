@@ -50,4 +50,8 @@ input, textarea {
   font: 1em sans-serif;
   /* to make sure all text fields have same size */
   width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* to harmonize look and feel of contact form */
+  border: 1px solid #999;
 }
