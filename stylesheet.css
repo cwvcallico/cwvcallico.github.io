@@ -9,28 +9,12 @@ body {
   margin: 100px;
   background: #AA99FF;
   font-size: 20px;
+  border: 5px solid indigo;
 }
-#left #top #right #bottom {
-  background: #indigo;
-  position: fixed;
-}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
 p.center {
   padding: 50px;
   margin: 30px;
-  text-align: justify;
+  text-align: center;
 }
 ul {
   list-style-type: none;
