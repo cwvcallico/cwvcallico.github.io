@@ -55,3 +55,7 @@ input:focus, textarea:focus {
   /* to give highlight to active elements */
   border-color: #000;
 }
+textarea {
+  /* to align multiline text fields with their labels */
+  vertical-align: top;
+}
