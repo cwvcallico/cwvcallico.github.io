@@ -9,9 +9,8 @@ body {
   margin: 100px;
   background: #AA99FF;
 }
-p + p{
-  display: inline-block;
-  border: 5px solid #CCC;
+p {
+  max-width: 100px;
 }
 ul {
   list-style-type: none;
