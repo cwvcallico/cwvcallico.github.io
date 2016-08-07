@@ -1,3 +1,5 @@
-var main() {
+var main = function() {
+  
+};
 
-}
+$ (document).ready(main);
