@@ -10,6 +10,10 @@ body {
   background: #AA99FF;
   font-size: 20px;
 }
+#left #top #right #bottom {
+  background: #indigo;
+  position: fixed;
+}
 p.justify {
   padding: 50px;
   margin: 30px;
