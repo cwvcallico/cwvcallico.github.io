@@ -10,9 +10,10 @@ body {
   background: #AA99FF;
   font-size: 30px;
 }
-p {
+p.justify {
   padding: 50px;
   margin: 30px;
+  text-align: justify;
 }
 ul {
   list-style-type: none;
