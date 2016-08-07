@@ -11,4 +11,8 @@ body {
 }
 ul {
   list-style-type: none;
+  font-size: 20px;
+  background: indigo;
+  padding: 0px 30px 0px 30px;
 }
+
