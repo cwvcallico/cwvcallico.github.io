@@ -41,3 +41,9 @@ label {
   width: 90px;
   text-align: right;
 }
+input, textarea {
+  /* to make sure all text fields have same font settings */
+  font: 1em sans-serif;
+  /* to make sure all text fields have same size */
+  width: 300px;
+}
