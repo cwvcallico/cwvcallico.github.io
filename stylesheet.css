@@ -1,4 +1,4 @@
-head {
+html {
   background-color: #AA99FF;
 }
 img {
@@ -10,7 +10,7 @@ img {
 body {
   text-align: center;
   margin: 100px;
-  background: #AA88FF;
+  background-color: #AA88FF;
   font-size: 20px;
   border: 5px solid indigo;
 }
