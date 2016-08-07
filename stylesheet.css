@@ -10,7 +10,7 @@ body {
   background: #AA99FF;
 }
 p {
-
+  padding: 20px;
 }
 ul {
   list-style-type: none;
