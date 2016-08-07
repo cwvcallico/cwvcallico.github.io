@@ -58,4 +58,8 @@ input:focus, textarea:focus {
 textarea {
   /* to align multiline text fields with their labels */
   vertical-align: top;
+  /* to give room to type text */
+  height: 5em;
+  /* to allow users to resize any textarea vertically (doesn't work on all browsers) */
+  resize: vertical;
 }
