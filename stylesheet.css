@@ -14,7 +14,7 @@ body {
   background: #indigo;
   position: fixed;
 }
-p.justify {
+p.center {
   padding: 50px;
   margin: 30px;
   text-align: justify;
