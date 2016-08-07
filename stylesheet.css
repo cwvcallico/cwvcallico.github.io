@@ -63,3 +63,11 @@ textarea {
   /* to allow users to resize any textarea vertically (doesn't work on all browsers) */
   resize: vertical;
 }
+.button {
+  /* position buttons same as text fields */
+  padding-left: 90px; /* same size as text labels */
+}
+button {
+  /* this extra margin represents roughly the same space as the space between the labels and their text fields */
+  margin-left: 0.5em;
+}
