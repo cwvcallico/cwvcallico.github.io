@@ -13,6 +13,12 @@ ul {
   list-style-type: none;
   font-size: 20px;
   background: indigo;
+  padding: 20px;
+}
+a {
+  color: white;
+}
+li {
+  display: inline;
   padding: 0px 30px 0px 30px;
 }
-
