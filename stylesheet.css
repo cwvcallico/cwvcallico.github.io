@@ -9,6 +9,10 @@ body {
   margin: 100px;
   background: #AA99FF;
 }
+p + p{
+  display: inline-block;
+  border: 5px solid #CCC;
+}
 ul {
   list-style-type: none;
   font-size: 20px;
