@@ -9,6 +9,7 @@ html {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    position: left 100px;
 }
 
 /* Dropdown button on hover & focus */
