@@ -101,7 +101,7 @@ label {
 }
 input, textarea {
   /* to make sure all text fields have same font settings */
-  font: 1em sans-serif;
+  font: 1em helvetica;
   /* to make sure all text fields have same size */
   width: 300px;
   -moz-box-sizing: border-box;
