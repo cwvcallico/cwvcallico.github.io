@@ -20,6 +20,7 @@ html {
 .dropdown {
     position: absolute;
     left: 150px;
+    top: 50px;
     display: inline-block;
 }
 
