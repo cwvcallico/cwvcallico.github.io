@@ -18,7 +18,7 @@ html {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: left 0px;
+    position: left -100px;
     display: inline-block;
 }
 
