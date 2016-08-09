@@ -11,6 +11,10 @@ html {
   border: none;
   cursor: pointer;
 }
+/* Dropdown button on hover and focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3E8E41;
+}
 
 img {
   width: 300px;
