@@ -101,8 +101,7 @@ label {
 }
 input, textarea {
   /* to make sure all text fields have same font settings */
-  font: 1em;
-  font-family: serif;
+  font: 1em sans-serif;
   /* to make sure all text fields have same size */
   width: 300px;
   -moz-box-sizing: border-box;
@@ -121,7 +120,7 @@ textarea {
   height: 5em;
   /* to allow users to resize any textarea vertically (doesn't work on all browsers) */
   resize: vertical;
-  font-family: serif;
+  font-family: sans-serif;
 }
 .button {
   /* position buttons same as text fields */
