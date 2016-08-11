@@ -1,0 +1,66 @@
+/* CWV online portfolio */
+/* Home page */
+
+.header {
+    background-color: #d01468;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.header a {
+    color: #ffffff;
+    list-style-type: none;
+    padding: 0px 40px 0px 40px;
+    font-family: serif;
+    text-decoration: none;
+
+}
+
+body { /* possibly use "background: -webkit-linear-gradient(top left, #fdeef4, white);" if you decide to add a gradient */
+    background-color: #fff5f5;
+    /*background: -webkit-repeating-linear-gradient(
+    top, #deb9b9, white, #deb9b9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+h1 {
+    color: black;
+    position: absolute;
+    bottom: 300px;
+    right: 250px;
+    font-size: 90px;
+}
+
+h2 {
+    color: black;
+    position: absolute;
+    bottom: 250px;
+    right: 185px;
+    font-size: 40px;
+}
+
+.footer {
+    background-color: #d01468;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.footer a {
+    color: #ffffff;
+    list-style-type: none;
+    padding: 0px 40px 0px 40px;
+    font-family: serif;
+    text-decoration: none;
+    text-align: left;
+}
