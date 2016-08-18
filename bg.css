@@ -1,0 +1,25 @@
+/* CWV Portfolio Website */
+/* BG CSS File */
+
+html {
+    text-align: justify;
+    border: .5em double #d01468;
+    margin: 2em;
+    background-color: #ffece9;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    text-align: justify;
+}
