@@ -24,7 +24,8 @@
 
 body {
     background: -webkit-repeating-linear-gradient(top left, #FFB2D6, white, #FFB2D6);
-    background-size: 100% 100%;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
 }
 
 #content { /* possibly use "background: -webkit-linear-gradient(top left, #fdeef4, white);" if you decide to add a gradient */
