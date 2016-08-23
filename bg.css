@@ -17,7 +17,7 @@ html {
     font-size: 25px;
     border: none;
     cursor: pointer;
-    position: float;
+    float: left;
 }
 
 /* Dropdown button on hover & focus */
