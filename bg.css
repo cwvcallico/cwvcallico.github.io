@@ -18,8 +18,8 @@ html {
     border: none;
     cursor: pointer;
     position: absolute;
-    top: -2em;
-    left: -2em;
+    top: -3em;
+    left: -2.5em;
 }
 
 /* Dropdown button on hover & focus */
