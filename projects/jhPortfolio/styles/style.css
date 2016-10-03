@@ -1,1 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+#nav li {
+    display: none;
+}
+
+/* Page 1 */
+
+#page1:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url("/Users/callistawinegar-valdez/Desktop/Jacob's website/jhPortfolio/images/lightbulbs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#page1 {
+    height: 700px;
+    position: relative;
+    overflow: scroll;
+    background-color: #ffffcc;
+    width: 100%;
+    margin-top: -20px;
+}
+
+#headings {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    text-align: center;
+    color: black;
+    background-color: #ffe6cc;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+
+#desPortfolio {
+    font-family: "Copperplate", serif;
+    letter-spacing: 9px;
+    text-shadow: 0 1px 0 #ffffe6,
+ 0 2px 0 #ffffe6,
+ 0 3px 0 #ffffe6,
+ 0 4px 0 #ffffe6,
+ 0 5px 0 #ffffe6,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#author {
+    font-family: "Lucida Grande", serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+/*.contactInfo {
+    font-family: "Lucida Grande", serif;
+    font-size: 25px;
+}
+
+#page1 li {
+    list-style-type: none;
+    padding: 30px;
+    text-align: justify;
+    display: inline;
+}
+
+#page1 ul {
+    margin: 0 auto;
+}
+
+#twoBorders {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}*/
+
+/* Page 2 */
+
+#page2 {
+    height: 1000px;
+    background-color: black;
+    opacity: 0.8;
+    color: rgba(255,255,204,.5);
+    overflow: auto;
+}
+
+#page2 p {
+    padding: 18%;
+    margin: 0 auto;
+    font-size: 1.8em;
+    font-family: "Lucida Grande", serif;
+    text-align: justify;
+}
+
+/* Page 3 */
+
+#page3 {
+    height: 1400px;
+    width: 100%;
+    overflow: auto;
+}
+
+.titles {
+    text-align: center;
+    font-family: "Copperplate", serif;
+    padding-top: 5%;
+    padding-right: 8%;
+}
+
+#mainHR {
+    width: 30%;
+    text-align: center;
+}
+
+#page3 h3 {
+    text-align: center;
+    font-weight: normal;
+    line-height: 10px;
+    font-family: "Lucida Grande", serif;
+}
+
+.resSections {
+    text-align: left;
+    color: red;
+    font-weight: normal;
+    font-family: "Copperplate", serif;
+    padding-left: 5%;
+}
+
+.years {
+    text-align: justify;
+    font-weight: normal;
+    float: right;
+    font-family: "Copperplate", serif;
+    line-height: 0%;
+    padding-right: 5%;
+}
+
+.companies {
+    float: center;
+    font-weight: normal;
+    font-family: "Copperplate", serif;
+    text-align: justify;
+    padding-left: 30%;
+    margin-bottom: 0px;
+}
+
+#software {
+    list-style-type: none;
+    font-family: "Copperplate", serif;
+    font-size: 30px;
+}
+
+.swType {
+    display: inline-block;
+    padding: 1.5%;
+}
+
+#swTitle {
+    padding-top: 30px;
+}
+
+#page3 p {
+    font-family: "Lucida Grande", serif;
+    text-align: justify;
+    padding-left: 30%;
+    font-size: 1.20em;
+    width: 30%;
+    margin-top: 0px;
+    line-height: 25px;
+}
+
+.special {
+    padding-left: 30%;
+    text-align: justify;
+    font-weight: normal;
+    color: rgb(128, 128, 128);
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: "Lucida Grande", serif;
+}
+
+#page3 span {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.degree {
+    margin-top: 0px;
+}
+
+.subject {
+    margin-top: 0px;
+}
+
+#page3 ul {
+    margin-top: 0px;
+}
+
+.bostonVI {
+    list-style-type: none;
+    font-family: "Lucida Grande", serif;
+    text-align: justify;
+    padding-left: 28%;
+    font-size: 1.2em;
+    line-height: 25px;
+}
+
+#page4 {
+    height: 1000px;
+    padding-top: 0%;
+    width: 100%;
+    background-color: #ffffcc;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 5%;
+}
+
+#page4 p {
+    font-family: "Lucida Grande", serif;
+    font-size: 1.20em;
+    width: 40%;
+    max-width: 100%;
+    margin-top: 0px;
+    line-height: 25px;
+    text-align: justify;
+    padding-left: 30%;
+}
+
+#page5 {
+    text-align: center;
+    height: 750px;
+    background-color: black;
+    opacity: 0.8;
+    color: black;
+    overflow: auto;
+}
+#page5 li {
+    list-style-type: none;
+    font-family: "Lucida Grande", serif;
+    text-align: justify;
+    font-size: 30px;
+    padding: 30px;
+    display: inline-block;
+}
+
+#page5 h1 {
+    margin: 0;
+    padding: 15%;
+    font-size: 100px;
+    font-family: "Lucida Grande", serif;
+}
+
+#page5Content:hover {
+    color: rgba(255,255,204,.5);
+}
