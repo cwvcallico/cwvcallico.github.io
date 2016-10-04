@@ -18,14 +18,13 @@ body {
     opacity: 0.6;
     background-image: url("https://cwvcallico.github.io/jhPortfolio/Bulbs.png");
     background-repeat: no-repeat;
-    background-position: 50% 30%;
+    background-position: center;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-    margin-left: -20px;
-    margin-right: -20px;
+    border: none;
 }
 
 #page1 {
