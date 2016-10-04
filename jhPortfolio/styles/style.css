@@ -25,6 +25,7 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     border: none;
+    margin: -20px;
 }
 
 #page1 {
