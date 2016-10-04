@@ -12,8 +12,7 @@ body {
 #page1:before {
     content: ' ';
     display: inline-block;
-    position: absolute;
-    background-attachment: fixed;
+    position: relative;
     width: 110%;
     height: 100%;
     opacity: 0.6;
@@ -26,7 +25,6 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     border: none;
-    margin-left: -20%;
 }
 
 #page1 {
