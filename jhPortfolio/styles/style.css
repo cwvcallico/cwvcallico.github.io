@@ -38,12 +38,12 @@ body {
 }
 
 #headings {
-    display: flex;
+    /*display: flex;
     justify-content:center;
     align-content:center;
     flex-direction:column;
     text-align: center;
-    color: black;
+    color: black;*/
     background-color: #ffe6cc;
     opacity: .4;
     width: 100%;
