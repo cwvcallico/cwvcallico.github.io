@@ -13,8 +13,8 @@ body {
     content: ' ';
     display: block;
     position: absolute;
-    width: 110%;
-    height: 110%;
+    width: 700px;
+    height: 700px;
     opacity: 0.6;
     background-image: url("https://cwvcallico.github.io/jhPortfolio/Bulbs.png");
     background-repeat: no-repeat;
