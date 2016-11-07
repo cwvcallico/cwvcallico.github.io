@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    text-align: center;
+    border: 10px solid black;
+    border-top: 15px solid black;
+}
+
+#nav li {
+    display: none;
+}
+
+#header {
+    background: black;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    color: white;
+    height: 70px;
+}
+
+#header ul {
+	margin-top: -20px;
+	margin-bottom: 0;
+}
+
+#header li {
+	list-style-type: none;
+	display: inline-block;
+    font-family: 'Sorts Mill Goudy', serif;
+	letter-spacing: 3px;
+	font-size: 25px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 10px;
+	text-shadow: 2px 2px 2px black,
+	1px 1px 1px #ffc9d0,
+	2px 2px 2px black;
+}
+
+h1 {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px silver,
+	2px 2px 2px #FFE1E5,
+    3px 3px 3px hotpink;
+}
+
+h2 {
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px white,
+	2px 2px 2px #FFE1E5,
+    3px 3px 3px hotpink;
+}
+
+p {
+	font-family: 'Proza Libre', sans-serif;
+}
+
+/* Page 1 */
+
+#page1 {
+    position: relative;
+    overflow: scroll;
+    width: 100%;
+    border-bottom: 15px solid black;
+    height: 700px;
+	background: #ffffff; /* fallback for old browsers */
+	/* #ffdde1 #ee9ca7*/
+	background: -webkit-linear-gradient(#ffc9d0, #ffffff, #ffc9d0); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #ffc9d0, #ffffff 20%, #ffffff 60%, #ffc9d0 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: flex;
+  	position: relative;
+ 	align-items: center;
+	justify-content: center;
+}
+
+#page1 h1 {
+	font-size: 70px;
+}
+
+/* Page 2 */
+
+#page2 {
+    overflow: scroll;
+    height: 700px;
+    font-size: 20px;
+	display: flex;
+  	position: relative;
+ 	align-items: center;
+	justify-content: center;
+	border: 15px double pink;
+}
+
+#paragraph {
+	border: 5px solid black;
+	padding-top: 46px;
+	padding-bottom: 48px;
+	text-align: justify;
+}
+
+#page2 h1 {
+	margin-bottom: -20px;
+	text-align: center;
+}
+
+#page2 p {
+	padding: 50px;
+	line-height: 35px;
+}
+
+#page2 img {
+	width: 300px;
+	height: 300px;
+    border: 5px solid black;
+    border-radius: 160px;
+    float:right;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+/* Page 3 */
+
+#page3 {
+    overflow: auto;
+    border-top: 15px solid black;
+    border-bottom: 15px solid black;
+    height: 1000px;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#experience {
+	float: left;
+	width: 500px;
+	font-family: 'Proza Libre', sans-serif;
+	text-align: center;
+	padding-left: 100px;
+	line-height: 25px;
+}
+
+#experience li {
+	list-style-type: none;
+	text-align: justify;
+}
+
+#experience p {
+	font-weight: bold;
+}
+
+#other {
+	float: right;
+	width: 500px;
+	padding-right: 100px;
+	font-family: 'Proza Libre', sans-serif;
+	line-height: 25px;
+	text-align: center;
+}
+
+#other li {
+	list-style-type: none;
+}
+
+#page4 {
+	overflow: auto;
+    border-bottom: 15px solid black;
+    height: 600px;
+}
+
+#page4 a {
+	display: inline
+}
+
+#page4 li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#page4 img {
+	width: 350px;
+	height: 200px;
+	border: 2px ridge black;
+	border: 1px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#page5 {
+	overflow: auto;
+    height: 400px;
+}
+
+#page5 h1 {
+	display: flex;
+  	position: relative;
+ 	align-items: center;
+	justify-content: center;
+}
+
+#page5 p {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+}
