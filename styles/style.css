@@ -1,184 +1,253 @@
+/* One element at a time! */
+	/* remember to test after each addition */
+
+/* General Styling */	
+
+/* html styling */
+
+html {
+	margin: 0
+	padding: 0;
+	border: 10px solid black;
+}
+
+/* body styling */
+
 body {
-    margin: 0;
-    text-align: center;
-    border: 10px solid black;
-    border-top: 15px solid black;
-}
-
-#nav li {
-    display: none;
-}
-
-#header {
-    background: black;
-    margin: auto;
-    top: 0px;
-    width: 100%;
-    color: white;
-    height: 70px;
-    position: fixed;
-    z-index: 1;
-}
-
-#header a {
-	text-decoration: none;
-	text-shadow: 2px 2px 2px black,
-	1px 1px 1px #ffc9d0,
-	2px 2px 2px black;
-	color: white;
-}
-
-#header ul {
-	margin: 10px auto;
-}
-
-#header li {
-	list-style-type: none;
-	display: inline-block;
-    font-family: 'Sorts Mill Goudy', serif;
-	letter-spacing: 3px;
-	font-size: 25px;
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-top: 10px;
-}
-
-h1 {
-    font-family: 'Sorts Mill Goudy', serif;
-    font-style: italic;
-    font-size: 60px;
-    text-shadow: 1px 1px 1px silver,
-	2px 2px 2px #FFE1E5,
-    3px 3px 3px hotpink;
-}
-
-h2 {
-	font-family: 'Proza Libre', sans-serif;
-	font-size: 30px;
-	letter-spacing: 2px;
-	text-shadow: 1px 1px 1px white,
-	2px 2px 2px #FFE1E5,
-    3px 3px 3px hotpink;
-}
-
-p {
-	font-family: 'Proza Libre', sans-serif;
-}
-
-/* Page 1 */
-
-#page1 {
-    position: relative;
-    overflow: scroll;
-    width: 100%;
-    border-bottom: 15px solid black;
-    height: 700px;
-	background: #ffffff; /* fallback for old browsers */
+	background: #ffdfe4;
+	font-family: "Proza Libre", sans-serif;
+	line-height: 1.7em;
+	/* fallback for old browsers */
 	/* #ffdde1 #ee9ca7*/
 	background: -webkit-linear-gradient(#ffc9d0, #ffffff, #ffc9d0); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #ffc9d0, #ffffff 20%, #ffffff 60%, #ffc9d0 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	display: flex;
-  	position: relative;
- 	align-items: center;
-	justify-content: center;
+	background: linear-gradient(to bottom, #ffc9d0, #ffffff 10%, #ffffff 85%, #ffc9d0 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: 0;
 }
 
-#page1 h1 {
-	font-size: 70px;
+/* a styling */
+
+a {
+	text-decoration: none;
 }
 
-/* Page 2 */
+/* li styling */
 
-#page2 {
-    overflow: scroll;
-    height: 700px;
-    font-size: 20px;
-	display: flex;
-  	position: relative;
- 	align-items: center;
-	justify-content: center;
-	border: 15px double pink;
+li {
+	list-style-type: none;
 }
 
-#paragraph {
-	border: 5px solid black;
-	padding-top: 46px;
-	padding-bottom: 48px;
-	text-align: justify;
+/* Classes Styling */
+
+/* span .border styling */
+
+.border {
+	border: 10px solid black;
+	width: 99%;
 }
 
-#page2 h1 {
-	margin-bottom: -20px;
+/* div .position styling */
+
+.position {
+	border: 1px solid #d7d7d7;
+	border-radius: 5px;
+	padding: 10px;
+	width: 400px;
+	margin: 20px auto;
+}
+
+/* Specific Main Styling */
+
+/* #container styling */
+
+#container {
+	margin: 0 auto;
+}
+
+/* hiding #nav section links */
+
+#nav {
+	display: none;
+}
+
+/* #header styling */
+
+#header {
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+}
+
+/* #header ul styling */
+
+#header ul {
 	text-align: center;
 }
 
-#page2 p {
-	padding: 50px;
-	line-height: 35px;
+/* #header li styling */
+
+#header li {
+	display: inline;
 }
+
+/* #header a styling */
+
+#header a {
+	color: white;
+	padding: 0 85px;
+	font-size: 25px;
+	font-family: "Sorts Mill Goudy", serif;
+}
+
+/* #header a:hover styling */
+
+#header a:hover {
+	background: #FFDFE4;
+	color: black;
+	height: 100%;
+	border-radius: 5px;
+}
+
+/* #page1 styling */
+
+#page1 {
+	margin-top: 21.5em;
+	height: 350px;
+	width: 100%;
+	text-align: center;
+}
+
+/* #page1 h1 styling */
+
+#page1 h1 {
+	font-family: "Sorts Mill Goudy", serif;
+	font-style: italic;
+	font-size: 4.5em;
+	text-shadow: 1px 1px 1px silver,
+	2px 2px 2px #FFDFE4,
+    3px 3px 3px #FFDFE4,
+    2px 2px 2px silver;
+}
+
+/* #page1 h2 styling */
+
+#page1 h2 {
+	font-family: "Sorts Mill Goudy", serif;
+	font-size: 2em;
+	line-height: 80px;
+	letter-spacing: 4px; 
+	text-shadow: 1px 1px 1px silver,
+	2px 2px 2px #FFDFE4,
+    3px 3px 3px #FFDFE4,
+    2px 2px 2px silver;
+}
+
+/* #page2 styling */
+
+#page2 {
+	margin-top: 7em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 600px;
+}
+
+/* #page2 h1 */
+
+#page2 h1 {
+	font-family: "Sorts Mill Goudy", serif;
+	font-style: italic;
+	font-size: 3.5em;
+	text-align: center;
+}
+
+/* #page2 p */
+
+#page2 p {
+	font-size: 1.25em;
+	line-height: 1.7em;
+}
+
+/* #page2 img */
 
 #page2 img {
 	width: 300px;
 	height: 300px;
     border: 5px solid black;
     border-radius: 160px;
-    float:right;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    margin-left: 25px;
-    margin-right: 20px;
+    float: right;
+    margin: 5px;
 }
 
-/* Page 3 */
+/* #page3 styling */
 
 #page3 {
-    overflow: auto;
-    border-top: 15px solid black;
-    border-bottom: 15px solid black;
-    height: 1000px;
-    font-family: 'Proza Libre', sans-serif;
+	margin-top: 7em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding-left: 10%;
 }
+
+#page3 h1 {
+	font-family: "Sorts Mill Goudy", serif;
+	font-style: italic;
+	font-size: 3.5em;
+	text-align: center;
+}
+
+/* #experience styling */
 
 #experience {
 	float: left;
-	width: 500px;
-	font-family: 'Proza Libre', sans-serif;
-	text-align: center;
-	padding-left: 100px;
-	line-height: 25px;
+	width: 30%;
+	margin-bottom: 7em;
 }
 
-#experience li {
-	list-style-type: none;
-	text-align: justify;
-}
-
-#experience p {
-	font-weight: bold;
-}
+/* #other styling */
 
 #other {
 	float: right;
-	width: 500px;
-	padding-right: 100px;
-	font-family: 'Proza Libre', sans-serif;
-	line-height: 25px;
+	width: 30%;
+	margin: 0 auto;
+}
+
+/* #page4 styling */
+
+#page4 {
+	height: 600px;
+	padding-top: 8em;
+}
+
+/* #page4 h1 */
+
+#page4 h1 {
+	font-family: "Sorts Mill Goudy", serif;
+	font-style: italic;
+	font-size: 3.5em;
 	text-align: center;
 }
 
-#other li {
-	list-style-type: none;
+/* #page4 ul */
+
+#page4 ul {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3em;
 }
 
-#page4 {
-	overflow: auto;
-    border-bottom: 15px solid black;
-    height: 600px;
-}
+/* #page4 a */
 
 #page4 a {
 	display: inline
 }
+
+/* #page4 li */
 
 #page4 li {
 	list-style-type: none;
@@ -186,6 +255,8 @@ p {
 	padding-left: 40px;
 	padding-right: 40px;
 }
+
+/* #page4 img */
 
 #page4 img {
 	width: 350px;
@@ -196,21 +267,55 @@ p {
     padding: 5px;
 }
 
+/* #page5 styling */
+
 #page5 {
-	overflow: auto;
-    height: 400px;
+	height: 600px;
+	padding-top: 8em;
 }
+
+/* #page5 h1 */
 
 #page5 h1 {
-	display: flex;
-  	position: relative;
- 	align-items: center;
-	justify-content: center;
+	font-family: "Sorts Mill Goudy", serif;
+	font-style: italic;
+	font-size: 3.5em;
+	text-align: center;
 }
 
+/* #page5 p */
+
 #page5 p {
-	display: inline-block;
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size: 20px;
+	text-align: center;
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 2em;
+}
+
+/* #contactItems */
+
+#contactItems {
+	margin-top: 10em;
+	margin-left: 10em;
+}
+
+/* Media Queries */
+
+/* Tablet/iPads (Portrait and Landscape) */
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+
+}
+
+/* For smaller tablets (portrait and landscape) */
+
+@media only screen and (min-width: 569px) and (max-width: 767px) {
+
+}
+
+/* For smart phones (portrait and landscape) */
+
+@media only screen and (min-width: 240px) and (max-width: 568px) {
+
 }
