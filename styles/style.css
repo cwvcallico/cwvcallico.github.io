@@ -327,4 +327,10 @@ li {
 	#container {
 		width: 95%;	
 	}
+	#header {
+		height: auto;
+		display: block;
+		overflow: hidden;
+		width: 99%;
+	}
 }
