@@ -79,6 +79,7 @@ li {
 	left: 0;
 	width: 100%;
 	height: 60px;
+	position: fixed;
 }
 
 /* #header ul styling */
@@ -333,9 +334,8 @@ li {
 		width: 99%;
 	}
 	#header ul {
-		padding: 2% 1%;
 		text-align: center;
-		width: 98%;
+		width: 100%;
 	}
 	#header a {
 		border-bottom: 1px solid #ffdfe4;	
