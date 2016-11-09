@@ -346,7 +346,8 @@ li {
 		border-bottom: 1px solid #ffdfe4;		
 	}
 	#header a {
-		margin-bottom: 2px;
+		margin-bottom: 1px;
 		text-align: center;
+		padding: 2% 1%;
 	}
 }
