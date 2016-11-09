@@ -324,37 +324,5 @@ li {
 /* For smart phones (portrait and landscape) */
 
 @media only screen and (min-width: 240px) and (max-width: 568px) {
-	#container {
-		width: 100%;	
-	}
-	#header {
-		height: auto;
-		display: block;
-		overflow: hidden;
-		width: 99%;
-	}
-	#header ul {
-		text-align: center;
-		width: 100%;
-		padding: 3% 1%;
-		margin: 0;
-	}
-	#header li {
-		float: none;
-		display: block;
-		width: 100%;
-		border-bottom: 1px solid #ffdfe4;		
-	}
-	#header a {
-		margin-bottom: 1px;
-		text-align: center;
-		padding: 3% 1%;
-	}
-	#header a:hover {
-		display: block;
-	}
-	#content, #page1, #page2, #page3, #page4, #page5 {
-		width: 100%;
-		float: none;
-	}
+
 }
