@@ -128,8 +128,8 @@ li {
 	font-size: 4.5em;
 	text-shadow: 1px 1px 1px silver,
 	2px 2px 2px #FFDFE4,
-    3px 3px 3px #FFDFE4,
-    2px 2px 2px silver;
+    	3px 3px 3px #FFDFE4,
+    	2px 2px 2px silver;
 }
 
 /* #page1 h2 styling */
@@ -141,8 +141,8 @@ li {
 	letter-spacing: 4px; 
 	text-shadow: 1px 1px 1px silver,
 	2px 2px 2px #FFDFE4,
-    3px 3px 3px #FFDFE4,
-    2px 2px 2px silver;
+    	3px 3px 3px #FFDFE4,
+    	2px 2px 2px silver;
 }
 
 /* #page2 styling */
@@ -153,6 +153,7 @@ li {
 	margin-right: auto;
 	width: 70%;
 	height: 600px;
+	overflow: auto;
 }
 
 /* #page2 h1 */
@@ -191,6 +192,7 @@ li {
 	margin-right: auto;
 	float: left;
 	padding-left: 10%;
+	overflow: auto;
 }
 
 #page3 h1 {
@@ -221,6 +223,7 @@ li {
 #page4 {
 	height: 600px;
 	padding-top: 8em;
+	overflow: auto;
 }
 
 /* #page4 h1 */
@@ -273,6 +276,7 @@ li {
 #page5 {
 	height: 600px;
 	padding-top: 8em;
+	overflow: auto;
 }
 
 /* #page5 h1 */
