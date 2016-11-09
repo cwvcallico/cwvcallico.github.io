@@ -324,5 +324,7 @@ li {
 /* For smart phones (portrait and landscape) */
 
 @media only screen and (min-width: 240px) and (max-width: 568px) {
-
+	#container {
+		width: 95%;	
+	}
 }
