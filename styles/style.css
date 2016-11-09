@@ -332,6 +332,11 @@ li {
 		overflow: hidden;
 		width: 99%;
 	}
+	#header ul {
+		padding: 2% 1%;
+		text-align: center;
+		width: 98%;
+	}
 	#header a {
 		border-bottom: 1px solid #ffdfe4;	
 	}
