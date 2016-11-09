@@ -332,6 +332,7 @@ li {
 		display: block;
 		overflow: hidden;
 		width: 99%;
+		position: relative;
 	}
 	#header ul {
 		text-align: center;
@@ -353,7 +354,7 @@ li {
 	#header a:hover {
 		display: block;
 	}
-	#content {
+	#content, #page1, #page2, #page3, #page4, #page5 {
 		width: 100%;
 		float: none;
 	}
