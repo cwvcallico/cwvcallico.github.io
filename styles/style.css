@@ -336,8 +336,17 @@ li {
 	#header ul {
 		text-align: center;
 		width: 100%;
+		padding: 2% 1%;
+		margin: 0;
+	}
+	#header li {
+		float: none;
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #ffdfe4;		
 	}
 	#header a {
-		border-bottom: 1px solid #ffdfe4;	
+		margin-bottom: 2px;
+		text-align: center;
 	}
 }
