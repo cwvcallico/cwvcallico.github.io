@@ -353,4 +353,8 @@ li {
 	#header a:hover {
 		display: block;
 	}
+	#content {
+		width: 100%;
+		float: none;
+	}
 }
