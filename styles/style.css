@@ -628,8 +628,9 @@ li {
 
 /* For smart phones (portrait and landscape) */
 
-@media only screen and (min-width: 240px) and (max-width: 568px) {
-
+@media only screen 
+and (min-device-width : 319px) 
+and (max-device-width : 480px) {
 #container {
 		width: 95%;
 	}
