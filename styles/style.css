@@ -637,11 +637,12 @@ li {
 	}
 	#container {
 		width: 95%;
+		border: 15px solid black;	
 	}
-	/*.border {
+	.border {
 		width: 110%;
 		margin-left: -20px;
-	}*/
+	}
 	#header {
 		display: none;
 	}
