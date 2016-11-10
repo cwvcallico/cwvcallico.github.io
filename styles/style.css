@@ -20,7 +20,7 @@ body {
 	/* fallback for old browsers */
 	/* #ffdde1 #ee9ca7*/
 	background: -webkit-linear-gradient(#ffc9d0, #ffffff, #ffc9d0); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #ffc9d0, #ffffff 10%, #ffffff 85%, #ffc9d0 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, #ffc9d0, #ffffff, #ffc9d0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	margin: 0;
 }
 
@@ -632,7 +632,7 @@ li {
 	html {
 		margin: 0
 		padding: 0;
-		border: 10px solid black;	
+		border: 3px solid black;	
 		width: 200%;
 		height: 100%;
 	}
@@ -640,7 +640,7 @@ li {
 		width: 95%;
 	}
 	.border {
-		width: 100%;
+		width: 110%;
 		margin-left: -20px;
 	}
 	#header {
