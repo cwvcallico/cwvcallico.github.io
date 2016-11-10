@@ -634,6 +634,7 @@ li {
 		padding: 0;
 		width: 200%;
 		height: 100%;
+		border: none;
 	}
 	#container {
 		width: 95%;
