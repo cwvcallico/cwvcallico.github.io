@@ -628,10 +628,14 @@ li {
 
 /* For smart phones (portrait and landscape) */
 
-@media only screen 
-and (min-device-width : 319px) 
-and (max-device-width : 480px) {
-#container {
+@media only screen and (min-width: 240px) and (max-width: 568px) {
+	html {
+		margin: 0
+		padding: 0;
+		border: 10px solid black;	
+		width: 100%;
+	}
+	#container {
 		width: 95%;
 	}
 	.border {
