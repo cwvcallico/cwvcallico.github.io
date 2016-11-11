@@ -118,6 +118,52 @@ li {
 	display: none;
 }
 
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    font-family: "Proza Libre", sans-serif;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+	background:#FFDFE4;
+	color: black;
+	height: 100%;
+	border-radius: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: block;
+    background-color: #FFDFE4;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #FFDFE4;
+    color: black;
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container
+ when the user clicks on the dropdown button) */
+.show {display:block;}
+
 /* #page1 styling */
 
 #page1 {
@@ -625,52 +671,6 @@ li {
 	}
 
 }
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: black;
-    color: white;
-    font-family: "Proza Libre", sans-serif;
-    padding: 16px;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-	background:#FFDFE4;
-	color: black;
-	height: 100%;
-	border-radius: 5px;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: block;
-    background-color: #FFDFE4;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #FFDFE4;
-    color: black;
-}
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container
- when the user clicks on the dropdown button) */
-.show {display:block;}
 
 /* For smart phones (portrait and landscape) */
 
