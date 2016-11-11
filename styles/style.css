@@ -122,17 +122,16 @@ li {
 .dropbtn {
     background-color: black;
     color: white;
-    font-family: "Proza Libre", sans-serif;
+    font-family: serif;
     padding: 16px;
     font-size: 25px;
     border: none;
     cursor: pointer;
-    position: fixed;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #FFDFE4;
+    background-color: pink;
     color: black;
 }
 
@@ -145,8 +144,8 @@ li {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: black;
-    color: white;
+    background-color: #f9f9f9;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -160,7 +159,7 @@ li {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #FFDFE4;
+    background-color: black;
     color: white;
 }
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container
