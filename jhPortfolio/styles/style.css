@@ -103,11 +103,10 @@ body {
 /* Page 2 */
 
 #page2 {
-    height: 600px;
+    height: 800px;
     background-color: black;
     opacity: 0.8;
     color: rgba(255,255,204,.5);
-    overflow: auto;
 }
 
 #page2 p {
