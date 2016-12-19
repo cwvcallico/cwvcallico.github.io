@@ -1,2 +1,2 @@
 # cwvcallico.github.io
-* Playground for website drafts and other projects
+* Draft area for portfolio website ideas, structure, style, and more
