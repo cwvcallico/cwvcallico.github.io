@@ -1,2 +1,3 @@
 # cwvcallico.github.io
-* Draft area for portfolio website ideas, structure, style, and more
+* Draft/practice area for portfolio website ideas, structure, style, and more
+* Coding playground
